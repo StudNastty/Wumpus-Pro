@@ -1,0 +1,19 @@
+{
+  "name": "wumpus",
+  "version": "6.0.0",
+  "description": "The awesome wumpus bot!",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.1",
+    "nodemon": "^1.18.4",
+    "vorpal": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "4sh",
+  "license": "ISC"
+}
