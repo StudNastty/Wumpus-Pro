@@ -1,7 +1,7 @@
 const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
 const errors = require("./utils/errors.js")
-const tokenfile = require("./tokenfile.json")
+const token = proces.env.token;
 const fs = require("fs");
 const ms = require("ms");
 let mutes = JSON.parse(fs.readFileSync("./mutes.json", "utf8"));
@@ -857,4 +857,4 @@ if(cmd === `${prefix}sinfo`){
 
 });
 
-bot.login(tokenfile.token);
+bot.login(token);
